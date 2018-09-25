@@ -1,3 +1,15 @@
-<p>
-  img-card works!
-</p>
+<mat-card>
+  <mat-card-actions>
+    <button 
+      color="{{ button.color }}" 
+      (click)="generateSrc()" 
+      disabled="{{ button.disabled }}"
+      mat-button 
+      mat-raised-button>
+    {{ button.text }}
+  </button>
+  </mat-card-actions>
+  <img src="{{ src }}"
+       alt="Cute cat"
+       mat-card-image>
+</mat-card>

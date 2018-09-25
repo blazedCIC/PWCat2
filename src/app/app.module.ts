@@ -12,6 +12,7 @@ import {
 
 import { AppComponent } from './app.component';
 import { ImgCardComponent } from './img-card/img-card.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { ImgCardComponent } from './img-card/img-card.component';
     //environment.production ? ServiceWorkerModule.register('ngsw-worker.js') : [],
     MatToolbarModule,
     MatCardModule,
-    MatButtonModule
+    MatButtonModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],
   bootstrap: [AppComponent]
