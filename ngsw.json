@@ -1,0 +1,57 @@
+{
+  "configVersion": 1,
+  "index": "https://blazedcic.github.io/PWCat2/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://blazedcic.github.io/PWCat2/favicon.ico",
+        "https://blazedcic.github.io/PWCat2/index.html"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://blazedcic.github.io/PWCat2/assets/icon-128x128.png",
+        "https://blazedcic.github.io/PWCat2/assets/icon-152x152.png",
+        "https://blazedcic.github.io/PWCat2/assets/icon-256x256.png",
+        "https://blazedcic.github.io/PWCat2/assets/icon-512x512.png"
+      ],
+      "patterns": [
+        "https:\\/\\/cataas\\.com\\/.*"
+      ]
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://blazedcic.github.io/PWCat2/assets/icon-128x128.png": "daf555f72a279485e4d4bf44c118394191ef5185",
+    "https://blazedcic.github.io/PWCat2/assets/icon-152x152.png": "d09db7c96c43a704d5c3d1adca1c1860b36315c3",
+    "https://blazedcic.github.io/PWCat2/assets/icon-256x256.png": "d81e2546d245dad2d35c4fa82e8bc4104e10628a",
+    "https://blazedcic.github.io/PWCat2/assets/icon-512x512.png": "f7292070daceb38afc9646f689eb2f0279ff3890",
+    "https://blazedcic.github.io/PWCat2/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "https://blazedcic.github.io/PWCat2/index.html": "a2605f6a7b16af3c3713bc8835ad9d6132918b72"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
