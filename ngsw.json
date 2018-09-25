@@ -8,7 +8,11 @@
       "updateMode": "prefetch",
       "urls": [
         "https://blazedcic.github.io/PWCat2/favicon.ico",
-        "https://blazedcic.github.io/PWCat2/index.html"
+        "https://blazedcic.github.io/PWCat2/index.html",
+        "https://blazedcic.github.io/PWCat2/main.90799648de352765945c.js",
+        "https://blazedcic.github.io/PWCat2/polyfills.f6ae3e8b63939c618130.js",
+        "https://blazedcic.github.io/PWCat2/runtime.ec2944dd8b20ec099bf3.js",
+        "https://blazedcic.github.io/PWCat2/styles.c6b17c857e33f2cd99f8.css"
       ],
       "patterns": []
     },
@@ -17,24 +21,36 @@
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
-        "https://blazedcic.github.io/PWCat2/assets/icon-128x128.png",
-        "https://blazedcic.github.io/PWCat2/assets/icon-152x152.png",
-        "https://blazedcic.github.io/PWCat2/assets/icon-256x256.png",
-        "https://blazedcic.github.io/PWCat2/assets/icon-512x512.png"
+        "https://blazedcic.github.io/PWCat2/assets/icons/icon-128x128.png",
+        "https://blazedcic.github.io/PWCat2/assets/icons/icon-144x144.png",
+        "https://blazedcic.github.io/PWCat2/assets/icons/icon-152x152.png",
+        "https://blazedcic.github.io/PWCat2/assets/icons/icon-192x192.png",
+        "https://blazedcic.github.io/PWCat2/assets/icons/icon-256x256.png",
+        "https://blazedcic.github.io/PWCat2/assets/icons/icon-384x384.png",
+        "https://blazedcic.github.io/PWCat2/assets/icons/icon-512x512.png",
+        "https://blazedcic.github.io/PWCat2/assets/icons/icon-72x72.png",
+        "https://blazedcic.github.io/PWCat2/assets/icons/icon-96x96.png"
       ],
-      "patterns": [
-        "https:\\/\\/cataas\\.com\\/.*"
-      ]
+      "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "https://blazedcic.github.io/PWCat2/assets/icon-128x128.png": "daf555f72a279485e4d4bf44c118394191ef5185",
-    "https://blazedcic.github.io/PWCat2/assets/icon-152x152.png": "d09db7c96c43a704d5c3d1adca1c1860b36315c3",
-    "https://blazedcic.github.io/PWCat2/assets/icon-256x256.png": "d81e2546d245dad2d35c4fa82e8bc4104e10628a",
-    "https://blazedcic.github.io/PWCat2/assets/icon-512x512.png": "f7292070daceb38afc9646f689eb2f0279ff3890",
+    "https://blazedcic.github.io/PWCat2/assets/icons/icon-128x128.png": "daf555f72a279485e4d4bf44c118394191ef5185",
+    "https://blazedcic.github.io/PWCat2/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://blazedcic.github.io/PWCat2/assets/icons/icon-152x152.png": "d09db7c96c43a704d5c3d1adca1c1860b36315c3",
+    "https://blazedcic.github.io/PWCat2/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://blazedcic.github.io/PWCat2/assets/icons/icon-256x256.png": "d81e2546d245dad2d35c4fa82e8bc4104e10628a",
+    "https://blazedcic.github.io/PWCat2/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://blazedcic.github.io/PWCat2/assets/icons/icon-512x512.png": "f7292070daceb38afc9646f689eb2f0279ff3890",
+    "https://blazedcic.github.io/PWCat2/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://blazedcic.github.io/PWCat2/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "https://blazedcic.github.io/PWCat2/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "https://blazedcic.github.io/PWCat2/index.html": "a2605f6a7b16af3c3713bc8835ad9d6132918b72"
+    "https://blazedcic.github.io/PWCat2/index.html": "2bf8e0b0ac2e5a21079fce8034c9457d034bd571",
+    "https://blazedcic.github.io/PWCat2/main.90799648de352765945c.js": "1292be65d9b5ce29caca100032e0527e527b2092",
+    "https://blazedcic.github.io/PWCat2/polyfills.f6ae3e8b63939c618130.js": "ef2035f0504b4f77eac510c33595c81a5d09e33f",
+    "https://blazedcic.github.io/PWCat2/runtime.ec2944dd8b20ec099bf3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "https://blazedcic.github.io/PWCat2/styles.c6b17c857e33f2cd99f8.css": "189cf0c312390686bf88655c021f1951816fdf79"
   },
   "navigationUrls": [
     {
