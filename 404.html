@@ -10,7 +10,39 @@
   <link rel="manifest" href="manifest.json">
   <style>
     #loading{display:inline-block;width:50px;height:50px;border:3px solid rgba(103,58,183,.3);border-radius:50%;border-top-color:#673ab7;animation:spin 1s ease-in-out infinite;position:fixed;left:calc(50% - 25px);top:calc(50% - 25px)}@keyframes spin{to{transform:rotate(360deg)}}
+    #applePWA{width: 300px; margin: 50px auto; border: 4px solid #00bfb6; padding: 20px; text-align: center; font-weight: 900; color: #00bfb6; font-family: arial; position: relative;}
+    #applePWA:before { content: ""; width: 0px; height: 0px; position: absolute; border-left: 10px solid transparent; border-right: 10px solid transparent; border-top: 10px solid #00bfb6; border-bottom: 10px solid transparent; right: 50%; bottom: -23px;}
+    #applePWA:after { content: ""; width: 0px; height: 0px; position: absolute; border-left: 10px solid transparent; border-right: 10px solid transparent; border-top: 10px solid #fff; border-bottom: 10px solid transparent; right: 50%; bottom: -18px;}
   </style>
+
+  <!-- Apple Settings for PWA -->
+  <link rel="apple-touch-icon" sizes="72x72" href="assets/icons/icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="96x96" href="assets/icons/icon-96x96.png">
+  <link rel="apple-touch-icon" sizes="128x128" href="assets/icons/icon-128x128.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="assets/icons/icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="assets/icons/icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="192x192" href="assets/icons/icon-192x192.png">
+  <link rel="apple-touch-icon" sizes="256x256" href="assets/icons/icon-256x256.png">
+  <link rel="apple-touch-icon" sizes="384x384" href="assets/icons/icon-384x384.png">
+  <link rel="apple-touch-icon" sizes="512x512" href="assets/icons/icon-512x512.png">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <link href="assets/splash/splash-640x1136.png" sizes="640x1136" rel="apple-touch-startup-image" />
+  <link href="assets/splash/splash-750x1334.png" sizes="750x1334" rel="apple-touch-startup-image" />
+  <link href="assets/splash/splash-1242x2208.png" sizes="1242x2208" rel="apple-touch-startup-image" />
+  <script type="text/javascript">
+    // Detects if device is on iOS 
+    const isIos = () => {
+      const userAgent = window.navigator.userAgent.toLowerCase();
+      return /iphone|ipad|ipod/.test( userAgent );
+    }
+    // Detects if device is in standalone mode
+    const isInStandaloneMode = () => ('standalone' in window.navigator) && (window.navigator.standalone);
+
+    // Checks if should display install popup notification:
+    if (isIos() && !isInStandaloneMode()) {
+      document.getElementById("applePWA").style.display = "block";
+    }
+  </script>
 <link rel="stylesheet" href="styles.1a9fc12c818f32d64255.css"></head>
 <body>
   <noscript>
@@ -22,7 +54,12 @@
     <nav style="background-color: #673ab7; height: 56px; width: 100%">
     </nav>
     <div id="loading"></div>
+    <div id="applePWA" style="display: none;">
+      Install this webapp on your device: tap <img src="assets/iPhoneIcon.png" alt="share icon" width="16" /> and then <br/>
+      Add to homescreen.
+    </div>
   </app-root>
   <noscript>Please enable JavaScript to continue using this application.</noscript>
+
 <script type="text/javascript" src="runtime.ec2944dd8b20ec099bf3.js"></script><script type="text/javascript" src="polyfills.f6ae3e8b63939c618130.js"></script><script type="text/javascript" src="main.e6880649b3053a319a8a.js"></script></body>
 </html>
